@@ -17,8 +17,8 @@ config.gpu_options.allow_growth = True
 #config.gpu_options.per_process_gpu_memory_fraction = 0.5
 # Dataset Parameters - CHANGE HERE
 MODE = 'folder' # or 'file', if you choose a plain text file (see above).
-TRAIN_DATASET_PATH = '/home/nvidia/tensorflowCode/Medium/train_ele' # the dataset file or root folder path.
-TEST_DATASET_PATH = '/home/nvidia/tensorflowCode/Medium/test_ele'
+TRAIN_DATASET_PATH = '/home/nvidia/tensorflowCode/Medium/train_img' # the dataset file or root folder path.
+TEST_DATASET_PATH = '/home/nvidia/tensorflowCode/Medium/test_img'
 
 # Image Parameters
 N_CLASSES = 2 # CHANGE HERE, total number of classes
