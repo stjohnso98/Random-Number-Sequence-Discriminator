@@ -1,3 +1,7 @@
+//This code creates images of signal images i.e, images created using random numbers from only Gaussian distribution.
+//This code also creates a tree whose branches are pixel intensities. This tree can be used to a train a neural network implemented using TMVA (Multivariate library of ROOT CERN)
+
+
 #include "TFile.h"
 #include "TH1.h"
 #include "TH2.h"
